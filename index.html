@@ -1,162 +1,166 @@
-index.html
 <!DOCTYPE html>
-<html lang="en">
-
+<html lang="es">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Portafolio profesional/ Daniel Astudillo </title>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Daniel Astudillo · Portafolio profesional</title>
+  <link rel="stylesheet" href="css/main.css"/>
 </head>
-
 <body>
 
+  <!-- Encabezado -->
+  <header>
+    <div class="container header-grid">
+      <!-- 1) FOTO PRIMERO -->
+      <div class="header-foto">
+        <!-- RECOMENDADO: renombra el archivo a "mi-imagen.jpg" (sin espacios) -->
+        <img src="images/mi imagen.jpg" alt="Foto de perfil de Daniel Astudillo" id="foto-perfil"/>
+      </div>
 
-    <header><!-- Encabezado de la pagina web -->
-        <h1>Portafolio profesional</h1>
+      <!-- 2) NOMBRE y luego Portafolio -->
+      <div class="header-texto">
+        <h4 class="subtitulo">Daniel Astudillo</h4>
+        <h1 class="titulo">Portafolio profesional</h1>
+        <h5 class="rol">Tecnologías de la Información</h5>
 
-        <h4>Daniel Astudillo</h4>
-        <h5>Portafolio profesional</h5>
-        <aside>
-            <a href="" class="redes"></a>
-            
-                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-instagram"
-                viewBox="0 0 16 16">
-                <path
-                    d="M8 0C5.829 0 5.556.01 4.703.048 3.85.088 3.269.222 2.76.42a3.9 3.9 0 0 0-1.417.923A3.9 3.9 0 0 0 .42 2.76C.222 3.268.087 3.85.048 4.7.01 5.555 0 5.827 0 8.001c0 2.172.01 2.444.048 3.297.04.852.174 1.433.372 1.942.205.526.478.972.923 1.417.444.445.89.719 1.416.923.51.198 1.09.333 1.942.372C5.555 15.99 5.827 16 8 16s2.444-.01 3.298-.048c.851-.04 1.434-.174 1.943-.372a3.9 3.9 0 0 0 1.416-.923c.445-.445.718-.891.923-1.417.197-.509.332-1.09.372-1.942C15.99 10.445 16 10.173 16 8s-.01-2.445-.048-3.299c-.04-.851-.175-1.433-.372-1.941a3.9 3.9 0 0 0-.923-1.417A3.9 3.9 0 0 0 13.24.42c-.51-.198-1.092-.333-1.943-.372C10.443.01 10.172 0 7.998 0zm-.717 1.442h.718c2.136 0 2.389.007 3.232.046.78.035 1.204.166 1.486.275.373.145.64.319.92.599s.453.546.598.92c.11.281.24.705.275 1.485.039.843.047 1.096.047 3.231s-.008 2.389-.047 3.232c-.035.78-.166 1.203-.275 1.485a2.5 2.5 0 0 1-.599.919c-.28.28-.546.453-.92.598-.28.11-.704.24-1.485.276-.843.038-1.096.047-3.232.047s-2.39-.009-3.233-.047c-.78-.036-1.203-.166-1.485-.276a2.5 2.5 0 0 1-.92-.598 2.5 2.5 0 0 1-.6-.92c-.109-.281-.24-.705-.275-1.485-.038-.843-.046-1.096-.046-3.233s.008-2.388.046-3.231c.036-.78.166-1.204.276-1.486.145-.373.319-.64.599-.92s.546-.453.92-.598c.282-.11.705-.24 1.485-.276.738-.034 1.024-.044 2.515-.045zm4.988 1.328a.96.96 0 1 0 0 1.92.96.96 0 0 0 0-1.92m-4.27 1.122a4.109 4.109 0 1 0 0 8.217 4.109 4.109 0 0 0 0-8.217m0 1.441a2.667 2.667 0 1 1 0 5.334 2.667 2.667 0 0 1 0-5.334" />
-                </svg></a>
-            <a href="" class="redes"></a>
-            
-            
-
+        <!-- Redes (pon tus enlaces reales) -->
+        <aside class="socials" aria-label="Redes sociales">
+          <a class="redes" href="https://www.instagram.com/daniel.eduar.exe/" target="_blank" rel="noopener" aria-label="Instagram">IG</a>
+          <a class="redes" href="https://github.com/soyyodaniel" target="_blank" rel="noopener" aria-label="GitHub">GH</a>
         </aside>
-        <link rel="stylesheet " href="css/main.css">
+      </div>
+    </div>
+  </header>
 
-    </header>
-    <!-- Menu de navegación-->
-    <nav>
-        <ul id="menu-principal">
-            <li><a href="">Sobre mi</a></li>
-            <li><a href="#proyectos"> Proyectos</a></li>
-            <li><a href="#habilidades"> Habilidades</a></li>
-            <li><a href="#contactame"> Contactame</a></li>
-        </ul>
-    </nav>
-    <!-- Contenido principal -->
-    <main>
-        <section>
-            <h2>Bienvenidos a mi Portafolio Profesional</h2>
-            <p>
-                Mi nombre es <mark>Daniel Eduardo Rios Astudillo</mark>, experto en <strong>Tecnologías de la
-                    Información</strong>, un texto de relleno
-                de las imprentas y archivos de texto. Lorem Ipsum ha sido
-                el texto de relleno estándar de las industrias desde el año 1500, cuando un impresor (N. del T. persona
-                que se dedica a la imprenta) desconocido usó una galería de textos y los mezcló de tal manera que logró
-                hacer un libro de textos especimen. No sólo sobrevivió 500 años, sino que tambien ingresó como texto de
-                relleno en documentos electrónicos, quedando esencialmente igual al original. Fue popularizado en los
-                60s con la creación de las hojas "Letraset", las cuales contenian pasajes de Lorem Ipsum, y más
-                recientemente con software de autoedición, como por ejemplo Aldus PageMaker, el cual incluye versiones
-                de Lorem Ipsum.</p>
-            <p> mi frase favorita <small>es <em>"Primero resuelvo, despues escribo codigo"</em></small></p>
-            <img src="images/mi imagen.jpg" alt="Foto de perfil" id="foto-perfil" />
-            >
+  <!-- Menú -->
+  <nav class="nav">
+    <ul id="menu-principal" class="container">
+      <li><a href="#sobre-mi">Sobre mí</a></li>
+      <li><a href="#proyectos">Proyectos</a></li>
+      <li><a href="#habilidades">Habilidades</a></li>
+      <li><a href="#contactame">Contáctame</a></li>
+    </ul>
+  </nav>
 
+  <main>
+    <!-- Intro -->
+    <section id="sobre-mi" class="container">
+      <h2>Bienvenidos a mi Portafolio Profesional</h2>
+      <p>
+        Mi nombre es <mark>Daniel Eduardo Rios Astudillo</mark>, experto en
+        <strong>Tecnologías de la Información</strong>. Texto de presentación…
+      </p>
+      <p>Mi frase favorita: <small><em>“Primero resuelvo, después escribo código”.</em></small></p>
+    </section>
 
-        </section>
-        <section id="proyectos">
-            <h2><a href=""> Proyectos Tecnológicos</a></h2>
-            <div id="Lista-Proyectos">
-                <article class="proyecto">
+    <!-- Proyectos -->
+    <section id="proyectos" class="container">
+      <h2>Proyectos Tecnológicos</h2>
+      <div id="Lista-Proyectos" class="cards">
+        <article class="proyecto">
+          <h3>Plataforma de seguimiento de rutas Agrícolas</h3>
+          <time datetime="2025-07-25">25/07/2025</time>
+          <!-- RECOMENDADO: renombra a "proyecto-1.png" -->
+          <img src="images/proyecto-1.png" alt="Vista del proyecto de rutas"/>
+          <p>Descripción breve del proyecto y tus responsabilidades.</p>
+        </article>
 
-                    <h3>Plataforma de seguimiento de rutas Agricolas;</h3>
-                    <time datetime="25-07"></time>
-                    <img src="images/Proyecto nuevo.png " alt="Imagen del proyecto" id="imagen del proyecto" />
-                    <p>Lorem,
-                        ipsum
-                        dolor sit amet consectetur adipisicing elit. Omnis nihil praesentium amet quo pariatur
-                        ab inventore quis, tempora ipsa. Architecto impedit sint aspernatur et est ab inventore aperiam
-                        unde
-                        harum!</p>
+        <article class="proyecto">
+          <h3>MediVax</h3>
+          <time datetime="2025-07-25">25/07/2025</time>
+          <img src="images/proyecto-2.png" alt="Interfaz de MediVax"/>
+          <p>Descripción breve del proyecto y tus responsabilidades.</p>
+        </article>
 
-                </article>
+        <article class="proyecto">
+          <h3>Sitio web de comercio electrónico</h3>
+          <time datetime="2025-07-25">25/07/2025</time>
+          <img src="images/proyecto-3.png" alt="Listado de productos del e-commerce"/>
+          <p>Descripción breve del proyecto y tus responsabilidades.</p>
+        </article>
+      </div>
+    </section>
 
-                <article class="proyecto">
-                    <h3>Aplicación de gestión de inventarios;</h3>
-                    <time datetime="25-07"></time>
-                    <img src="images/Proyecto nuevo.png" />
-                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Omnis nihil praesentium amet quo
-                        pariatur
-                        ab inventore quis, tempora ipsa. Architecto impedit sint aspernatur et est ab inventore aperiam
-                        unde
-                        harum!</p>
-                </article>
-                <article class="proyecto">
-                    <h3>Sitio web de comercio electrónico;</h3>
-                    <time datetime="25-07"></time>
-                    <img src="images/Proyecto nuevo.png" />
-                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Omnis nihil praesentium amet quo
-                        pariatur
-                        ab inventore quis, tempora ipsa. Architecto impedit sint aspernatur et est ab inventore aperiam
-                        unde
-                        harum!</p>
-                </article>
-            </div>
-        </section>
-        <section id="Habilidades">
-            <h2>Habilidades y Competencias</h2>
-            <h3>Lenguajes y Tecnologías</h3>
-            <ul class="listas_tecnologias">
-                <li>JavaScrip</li>
-                <li>CSharp</li>
-                <li>HTML</li>
-                <li>CSS</li>
-                <li>SQL</li>
-                <li>Git y GitHub</li>
-            </ul>
-            <h3>Nivel de Dominio</h3>
+    <!-- Habilidades -->
+    <section id="habilidades" class="container">
+      <h2>Habilidades y Competencias</h2>
 
-            <section id="contacto">
-                <h2>Contactame</h2>
-                <p>Si deseas ponerte en contacto conmigo, puedes enviarme un correo electrónico a
-                    <a href="mailto:daniel.astudillo@example.com">daniel.astudillo@example.com</a>
-                    <form>
-                        <div class="campos">
-                            <label>Nombre Completo</label>
-                            <input type="text" name="nombre" placeholder="Tu nombre completo" required />
-                            
-                        </div>
-                        
+      <h3>Lenguajes y Tecnologías</h3>
+      <ul class="listas_tecnologias">
+        <li>JavaScript</li><li>C#</li><li>HTML</li><li>CSS</li><li>SQL</li><li>Git y GitHub</li>
+      </ul>
 
-                    </form>
-            </section>
-            <ul>
-                <div>
-                    <label>HTML5</label>
-                    <progress max="100" value="80">80%</progress>
-                </div>
-                <div>
-                    <label>CSS3</label>
-                    <progress max="100" value="50">50%</progress>
-                </div>
-                <div>
-                    <label>JavaScript</label>
-                    <progress max="100" value="30">30%</progress>
-                </div>
-                <div>
-                    <label>CSharp</label>
-                    <progress max="100" value="40">40%</progress>
-                </div>
-                <div>
-                    <label>SQL</label>
-                    <progress max="100" value="70">70%</progress>
-                </div>
-            </ul>
-        </section>
-    </main>
-    <footer>
+      <!-- PROGRESOS AQUÍ, debajo de Habilidades -->
+      <h3>Nivel de Dominio</h3>
+      <div class="skills-grid">
+        <div><label>HTML5</label><progress max="100" value="80">80%</progress></div>
+        <div><label>CSS3</label><progress max="100" value="50">50%</progress></div>
+        <div><label>JavaScript</label><progress max="100" value="30">30%</progress></div>
+        <div><label>C#</label><progress max="100" value="40">40%</progress></div>
+        <div><label>SQL</label><progress max="100" value="70">70%</progress></div>
+      </div>
+    </section>
 
-        <p>Todos los derechos reservados -Daniel Astudillo &copy; 2025</p>
+    <!-- Contacto -->
+    <section id="contactame" class="container">
+      <h2>Contáctame</h2>
+      <p>Escríbeme a <a href="mailto:daniel.rios.astudillo@gmail.com">daniel.rios.astudillo@gmail.com</a> o completa el formulario:</p>
 
+      <form class="contact-form" action="#" method="post">
+        <div class="campos">
+          <label for="name">Nombre Completo</label>
+          <input type="text" id="name" name="name" placeholder="Tu nombre completo" required />
+        </div>
+
+        <div class="campos">
+          <label for="email">Correo Electrónico</label>
+          <input type="email" id="email" name="email" placeholder="Tu correo electrónico" required />
+        </div>
+
+        <div class="campos">
+          <label for="telefono">Teléfono</label>
+          <input type="tel" id="telefono" name="telefono" placeholder="+52 55 1234 5678"/>
+        </div>
+
+        <div class="campos">
+          <label for="asunto">Asunto</label>
+          <select id="asunto" name="asunto" required>
+            <option value="">Selecciona una opción</option>
+            <option value="contacto">Contacto</option>
+            <option value="cotizacion">Cotización</option>
+            <option value="otro">Otro</option>
+          </select>
+        </div>
+
+        <div class="campos">
+          <label for="fecha_evento">Fecha de evento</label>
+          <input type="date" id="fecha_evento" name="fecha_evento" />
+        </div>
+
+        <div class="campos inline">
+          <span class="label-inline">Modo de contacto</span>
+          <div><input type="checkbox" id="whatsapp" value="whatsapp" class="opciones"/><label for="whatsapp">WhatsApp</label></div>
+          <div><input type="checkbox" id="correo" value="correo" class="opciones"/><label for="correo">Correo Electrónico</label></div>
+        </div>
+
+        <div class="campos inline">
+          <span class="label-inline">¿Eres cliente?</span>
+          <div><input type="radio" id="si_cliente" name="es_cliente" value="si"/><label for="si_cliente">Sí</label></div>
+          <div><input type="radio" id="no_cliente" name="es_cliente" value="no"/><label for="no_cliente">No</label></div>
+        </div>
+
+        <div class="acciones-form">
+          <button type="submit" class="btn">Enviar</button>
+        </div>
+      </form>
+    </section>
+  </main>
+
+  <footer>
+    <div class="container">
+      <p>Todos los derechos reservados — Daniel Astudillo &copy; 2025</p>
+    </div>
+  </footer>
 
 </body>
-
 </html>
